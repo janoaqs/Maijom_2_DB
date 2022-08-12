@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UsuarioNoticia" directorySegmentName="seg_0" id="D70763E0-D0BC-20D5-0521-5CE0F1B50440">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:08:10 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>D4DD05CF-D593-699C-579E-F950E061F777</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B0985D6-8E12-649D-B366-472DF2174CF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02B22441-3D99-2FB5-4F78-3CDAA9B875C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

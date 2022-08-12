@@ -41,5 +41,28 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_comuna" id="467E5A4A-15F8-5E65-FA67-9BA660579545">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:56:05 UTC</createdTime>
+<generatorID>FBF7456B-1176-9038-B0A1-A626ADCFCE84</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>8039E5E0-8B16-915E-953A-7EDC65BC9436</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E67978D-DDD7-DB93-B769-6ECBE8BA9FFB" name="Direccion PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:26:51 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DDC5C7B-976C-017B-707B-47D091342625</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

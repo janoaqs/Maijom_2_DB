@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="147A6FC2-AD5E-D1C6-6F8C-7F3309371CCB" name="Integrante">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BD8ABB7-9475-215C-B58F-7423BF143943" name="ClaveU">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 04:02:02 UTC</createdTime>
+<createdTime>2022-08-12 18:48:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,18 +12,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_integrante" id="78E17D31-0A9D-03A6-86B2-7457866514FF">
+<Attribute name="id_claveu" id="78A815D4-A859-05DB-3E5B-6EF26FB8C13F">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 04:02:08 UTC</createdTime>
+<createdTime>2022-08-12 18:48:39 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="parentezco_integrante" id="B52955F1-DB4C-9141-5203-C59C580E8352">
+<Attribute name="password_claveu" id="4BEC38D7-4FEA-1766-2FD1-1D78ADA1C555">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 04:14:56 UTC</createdTime>
+<createdTime>2022-08-12 19:16:25 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,15 +31,27 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="rut_persona" id="E5A71C92-2040-3A25-FBCF-A440B1C3B577">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:51:04 UTC</createdTime>
+<generatorID>DE23C884-0987-DAF5-C723-74CBE2CB1397</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>26B3DF3C-478F-4DF8-A33E-672A9A724CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8C08DDE4-D867-42C3-89EB-A0849F8CF7E2" name="Integrante PK">
+<identifier id="72E8D3D9-BAC2-67FD-D0CE-FED30E86EF41" name="ClaveU PK">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 04:02:19 UTC</createdTime>
+<createdTime>2022-08-12 18:48:48 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>78E17D31-0A9D-03A6-86B2-7457866514FF</attributeRef>
+<attributeRef>78A815D4-A859-05DB-3E5B-6EF26FB8C13F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

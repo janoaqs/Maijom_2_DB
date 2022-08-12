@@ -41,6 +41,17 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="CB25E91A-19C3-AAD2-F443-BCE053492F0C">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:36:44 UTC</createdTime>
+<generatorID>65F5AB52-86AD-9CFD-C8BA-54BBFC8A38C9</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>A08F20BE-EF27-A013-33DB-DF697DAD9283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D460F1D2-82C5-5AE5-BECD-F82CF7FACE5C" name="Inmobiliaria PK">

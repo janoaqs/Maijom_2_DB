@@ -41,7 +41,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_subsidio" id="4A8A2864-308A-7C07-205A-8B703604273D">
+<Attribute name="tramo_subsidio" id="4A8A2864-308A-7C07-205A-8B703604273D">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-11 04:21:42 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>

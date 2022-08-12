@@ -32,6 +32,17 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_serviu" id="D1E46CC8-14D4-3253-E317-050B318ACB46">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:00:46 UTC</createdTime>
+<generatorID>36D854B5-EF68-8C6E-5B3E-C363D4C2C1E6</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>3F125F3D-18F5-A90E-7CE1-CEB5B097F920</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CFA34EE8-BC8E-B03D-9C69-480092FE98FF" name="Comuna PK">

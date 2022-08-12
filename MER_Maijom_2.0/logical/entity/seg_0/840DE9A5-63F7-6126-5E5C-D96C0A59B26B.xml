@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="658F25C3-0A2D-07FE-7EC5-460FE9344349" name="Admin">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="840DE9A5-63F7-6126-5E5C-D96C0A59B26B" name="Tramo">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:42:56 UTC</createdTime>
+<createdTime>2022-08-12 21:04:38 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,18 +12,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_admin" id="0A289240-4752-74D6-08ED-62FE7484F43C">
+<Attribute name="id_tramo" id="CE0C9917-9EAA-55BA-1A86-B9A3D516EBC4">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:43:25 UTC</createdTime>
+<createdTime>2022-08-12 21:04:45 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_admin" id="E8EF2E0E-64DD-220E-682D-0FF9FCA97D66">
+<Attribute name="nombre_tramo" id="40450826-F856-32A6-C749-D5D678FCDAD5">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:45:56 UTC</createdTime>
+<createdTime>2022-08-12 21:11:04 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,32 +31,30 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="apellido_admin" id="26D906BC-9D2E-B204-857C-F6D6F5FA4A75">
+<Attribute name="ahorro_min_tramo" id="91988E77-6617-1139-888B-8A6C702A395C">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:46:14 UTC</createdTime>
+<createdTime>2022-08-12 21:10:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cargo_admin" id="590C862F-48A2-B3D0-ED24-4B4A20DF45DC">
+<Attribute name="uf_max_tramo" id="CC5CCAF7-55A5-E61A-F8A4-63BF503D3F4B">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:46:33 UTC</createdTime>
+<createdTime>2022-08-12 21:11:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="B8C64327-BC09-6EBD-0FE9-8F7D5A67551D">
+<Attribute name="id_subsidio" id="539C5D39-5FCF-9DA0-DEBB-5199A76211C8">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 23:07:11 UTC</createdTime>
-<generatorID>F8783ADA-0BEA-5A90-281D-947F63B52CD7</generatorID>
+<createdTime>2022-08-12 21:12:41 UTC</createdTime>
+<generatorID>093A2734-3A3C-C658-001E-F960DE062FCF</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<referedAttribute>A08F20BE-EF27-A013-33DB-DF697DAD9283</referedAttribute>
+<referedAttribute>BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -64,13 +62,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B9CAFF20-5416-975C-6E9E-D144B3D97AE0" name="Admin PK">
+<identifier id="6CD20FF5-0439-36CA-CCCC-94A3CD2AAE00" name="Tramo PK">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:43:31 UTC</createdTime>
+<createdTime>2022-08-12 21:04:59 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0A289240-4752-74D6-08ED-62FE7484F43C</attributeRef>
+<attributeRef>CE0C9917-9EAA-55BA-1A86-B9A3D516EBC4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

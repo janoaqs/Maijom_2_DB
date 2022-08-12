@@ -29,6 +29,40 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_postulacion" id="0795CECF-7B9B-1247-F501-1A0BB622B819">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:36:05 UTC</createdTime>
+<generatorID>E4D442E8-F75A-1BCD-D568-635C99FE63B0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>F9903FC9-1856-2817-24CC-6B216B3858A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rsh" id="0327611D-E5B6-86B5-C817-F9E29855AAD6">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 21:16:15 UTC</createdTime>
+<generatorID>F45C3980-4E50-A8CB-719B-7A3A7A9B2962</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>FEF01C73-264C-7199-7C52-51A41EF4508D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="645E2096-F4E3-2F00-3D3E-78AB0258FF71">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:52:03 UTC</createdTime>
+<generatorID>F430045F-7E46-388F-A1E9-DC12EB33E985</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>D8CE48C8-444D-A318-A0D3-920AB061A476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E675A30C-3D43-3337-392B-8081473899AC" name="Solicitud PK">

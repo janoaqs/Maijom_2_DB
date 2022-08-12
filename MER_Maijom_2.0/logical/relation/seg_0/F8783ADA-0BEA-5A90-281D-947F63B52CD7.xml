@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UsuarioAdmin" directorySegmentName="seg_0" id="F8783ADA-0BEA-5A90-281D-947F63B52CD7">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:07:11 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>D4DD05CF-D593-699C-579E-F950E061F777</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8B0985D6-8E12-649D-B366-472DF2174CF5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>658F25C3-0A2D-07FE-7EC5-460FE9344349</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

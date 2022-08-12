@@ -38,6 +38,40 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_subsidio" id="A164AA85-F0D0-AF85-8AB6-0BE3129C2080">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:39:08 UTC</createdTime>
+<generatorID>57499ACE-8080-3DE2-BA38-14352FE6DC69</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="DA17AA31-02DD-36FA-1EE0-36A239B77EF4">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:52:32 UTC</createdTime>
+<generatorID>23F95A91-73EF-3C9F-0D8F-3142C253C578</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>D8CE48C8-444D-A318-A0D3-920AB061A476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_serviu" id="4BD9C3FC-FBE3-A3DB-35C3-43120D23D968">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:05:00 UTC</createdTime>
+<generatorID>B9319512-97FD-CB1F-67BE-CD14857FF702</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>3F125F3D-18F5-A90E-7CE1-CEB5B097F920</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B967401E-F903-8925-7044-57DA22EE1004" name="Postulacion PK">

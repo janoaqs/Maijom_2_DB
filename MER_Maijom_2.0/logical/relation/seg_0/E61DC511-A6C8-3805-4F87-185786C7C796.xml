@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SubsidioProyecto" directorySegmentName="seg_0" id="E61DC511-A6C8-3805-4F87-185786C7C796">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:12:42 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>30BD295F-EC97-132D-A8E0-664F359786CF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA77F2D6-E547-7F6A-3799-29C9D9CB0586</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D58F46E-AC13-3B2F-DFD2-016FC94247BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

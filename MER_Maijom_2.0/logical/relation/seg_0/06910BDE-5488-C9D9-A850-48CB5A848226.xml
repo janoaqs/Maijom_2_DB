@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PersonaRSH" directorySegmentName="seg_0" id="06910BDE-5488-C9D9-A850-48CB5A848226">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:48:04 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7B55D020-9A9C-729A-503D-E41005BA3E63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81937E56-3DD7-255F-F32A-52873BA43F7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Parentezco" id="5142B550-8D22-1142-0D2E-A856DC5B8E73">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:22:33 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_ingreso" id="5705865B-4131-6817-0D06-07CE46ACE921">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:23:00 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

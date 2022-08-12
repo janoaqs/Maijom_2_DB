@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DireccionRSH" directorySegmentName="seg_0" id="83CBE8BC-3625-7E29-E0AB-16BE13CB076F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:54:59 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>3E67978D-DDD7-DB93-B769-6ECBE8BA9FFB</sourcePk>
+<dominantRole>8C150482-FA90-5F1B-541A-97D89AE6738F</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C150482-FA90-5F1B-541A-97D89AE6738F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7B55D020-9A9C-729A-503D-E41005BA3E63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

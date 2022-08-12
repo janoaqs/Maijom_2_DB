@@ -31,6 +31,17 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="BA7A397A-6761-65B8-FB7A-DB0C1BEA5847">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:08:10 UTC</createdTime>
+<generatorID>D70763E0-D0BC-20D5-0521-5CE0F1B50440</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>A08F20BE-EF27-A013-33DB-DF697DAD9283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D805F046-D873-B9DF-5D5A-5E409DF9B149" name="Noticia PK">

@@ -22,6 +22,75 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nombre1_persona" id="BB79E99A-ECF3-C610-8A6F-6D35F43D4628">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:02:16 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre2_persona" id="4F0C797F-B000-0B9C-2603-9CBBC164EBBB">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:02:39 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido1_persona" id="3CD1B2B9-8DF5-FBF2-693E-2674F57146E1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:02:41 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido2_persona" id="92256A46-6B33-1BCB-5328-E36E690C1CE1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:02:41 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento_persona" id="756BA45B-800F-1070-22E0-477068DDB797">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:03:21 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo_persona" id="8C7760B6-931F-BFF5-13D5-332CF09E4CA7">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:05:53 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad_persona" id="1A64DC76-5BEA-F1A8-B033-E05FE5AEB4EC">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 20:06:19 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7374231B-D9C7-02FB-2ED4-D29A6A0572D1" name="Persona PK">

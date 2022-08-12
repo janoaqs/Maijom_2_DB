@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SubsidioTramo" directorySegmentName="seg_0" id="093A2734-3A3C-C658-001E-F960DE062FCF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 21:12:41 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>30BD295F-EC97-132D-A8E0-664F359786CF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA77F2D6-E547-7F6A-3799-29C9D9CB0586</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>840DE9A5-63F7-6126-5E5C-D96C0A59B26B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

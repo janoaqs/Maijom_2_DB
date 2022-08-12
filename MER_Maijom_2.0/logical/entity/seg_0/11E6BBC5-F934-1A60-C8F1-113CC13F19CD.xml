@@ -31,6 +31,17 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="137FA1B1-9579-C2C5-0A78-65D20425B755">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:36:14 UTC</createdTime>
+<generatorID>208669C4-0DC4-A2CF-976B-EE977DFE5CC7</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>A08F20BE-EF27-A013-33DB-DF697DAD9283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B5646F70-9502-DA5F-4A05-2E8D9B202B0D" name="Serviu PK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ComunaDireccion" directorySegmentName="seg_0" id="FBF7456B-1176-9038-B0A1-A626ADCFCE84">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:56:05 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>CFA34EE8-BC8E-B03D-9C69-480092FE98FF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00FA36C3-47BA-27B7-9D8F-7128177B62CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C150482-FA90-5F1B-541A-97D89AE6738F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

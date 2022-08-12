@@ -31,6 +31,17 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_noticia" id="61BFFA15-689D-7FEA-BF12-DE33A0879E6E">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:08:47 UTC</createdTime>
+<generatorID>8E6049F8-66FB-871D-5E5D-A0B93BDEB37A</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>CAA453EB-1013-055E-9219-26BCEC728109</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AC915552-8A0E-942C-E80D-D83F570DE4BE" name="Imagen PK">

@@ -30,6 +30,17 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_direccion" id="3C8CE6E1-0FDB-D759-DC81-163AE0EA75D1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:26:53 UTC</createdTime>
+<generatorID>83CBE8BC-3625-7E29-E0AB-16BE13CB076F</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>3DDC5C7B-976C-017B-707B-47D091342625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1ED66D73-B912-B567-95E7-FE24EA2B2566" name="RSH PK">

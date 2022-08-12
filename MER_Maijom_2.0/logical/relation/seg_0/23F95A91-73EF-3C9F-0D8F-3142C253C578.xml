@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PostulacionEstado" directorySegmentName="seg_0" id="23F95A91-73EF-3C9F-0D8F-3142C253C578">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:52:32 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>ED4B6B89-3679-44B8-9199-D23CDD17AB49</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EA27B2C-B1CE-C33D-FF71-2454B358984A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5C9723A-FA4F-FA1A-C8B3-D80BC123DA1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

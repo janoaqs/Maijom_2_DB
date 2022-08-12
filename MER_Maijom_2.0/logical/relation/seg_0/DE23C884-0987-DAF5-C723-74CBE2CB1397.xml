@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PersonaClaveu" directorySegmentName="seg_0" id="DE23C884-0987-DAF5-C723-74CBE2CB1397">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 22:51:04 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>7374231B-D9C7-02FB-2ED4-D29A6A0572D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81937E56-3DD7-255F-F32A-52873BA43F7D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1BD8ABB7-9475-215C-B58F-7423BF143943</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

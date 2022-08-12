@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SolicitudRSH" directorySegmentName="seg_0" id="F45C3980-4E50-A8CB-719B-7A3A7A9B2962">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 21:16:15 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>1ED66D73-B912-B567-95E7-FE24EA2B2566</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B55D020-9A9C-729A-503D-E41005BA3E63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4472678E-60FD-F769-F87F-38D6B55F9D8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
