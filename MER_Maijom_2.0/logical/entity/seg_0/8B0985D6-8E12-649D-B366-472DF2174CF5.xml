@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B0985D6-8E12-649D-B366-472DF2174CF5" name="Usuario">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:28:37 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="A08F20BE-EF27-A013-33DB-DF697DAD9283">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:28:44 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_usuario_cliente" id="A00CF222-AD6F-74A9-58EC-51D7A76C178B">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:31:19 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password_cliente" id="12A2BF4A-F187-75CB-1EB3-B9ABCB45B99F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:31:47 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4DD05CF-D593-699C-579E-F950E061F777" name="Usuario PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:29:12 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A08F20BE-EF27-A013-33DB-DF697DAD9283</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

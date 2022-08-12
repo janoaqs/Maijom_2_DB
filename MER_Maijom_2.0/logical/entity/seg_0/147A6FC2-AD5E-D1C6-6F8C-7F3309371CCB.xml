@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="147A6FC2-AD5E-D1C6-6F8C-7F3309371CCB" name="Integrante">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 04:02:02 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_integrante" id="78E17D31-0A9D-03A6-86B2-7457866514FF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 04:02:08 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentezco_integrante" id="B52955F1-DB4C-9141-5203-C59C580E8352">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 04:14:56 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C08DDE4-D867-42C3-89EB-A0849F8CF7E2" name="Integrante PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 04:02:19 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78E17D31-0A9D-03A6-86B2-7457866514FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

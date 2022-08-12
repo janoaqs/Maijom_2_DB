@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D58F46E-AC13-3B2F-DFD2-016FC94247BD" name="Proyecto">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:57:11 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_proyecto" id="1203B8A8-AF6B-02FE-EC96-5B4B6FE4A9A5">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:57:15 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="casas_disponibles_proyecto" id="F36F0F22-ED87-77E3-7AAE-1AF45E89A7FF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:59:02 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4615C6D2-5FCA-E165-099F-79941F93A3F0" name="Proyecto PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 03:57:29 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1203B8A8-AF6B-02FE-EC96-5B4B6FE4A9A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
