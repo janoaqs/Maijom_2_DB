@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4472678E-60FD-F769-F87F-38D6B55F9D8B" name="Solicitud">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:04:44 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_solicitud" id="19B1B36D-8167-2499-9A38-609F8CF0A781">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:04:53 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_solicitud" id="0A1D87AF-9973-66ED-20D0-DB5D39298FC4">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:05:10 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E675A30C-3D43-3337-392B-8081473899AC" name="Solicitud PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:05:07 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19B1B36D-8167-2499-9A38-609F8CF0A781</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

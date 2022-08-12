@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_Maijom_2.0" id="895A96DB-5136-753A-9C37-218272A951A6" version="3.5">
+<createdBy>Jano</createdBy>
+<createdTime>2021-04-21 17:49:22 UTC</createdTime>
+<ownerDesignName>mer_proyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>895A96DB-5136-753A-9C37-218272A951A6</designId>
+</OSDM_Design>

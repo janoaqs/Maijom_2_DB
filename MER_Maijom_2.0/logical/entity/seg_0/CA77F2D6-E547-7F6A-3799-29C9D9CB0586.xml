@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA77F2D6-E547-7F6A-3799-29C9D9CB0586" name="Subsidio">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:07:02 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_subsidio" id="BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:07:16 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_subsidio" id="0C38DE88-A1C3-EA55-78AE-62FE0D649224">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:17:48 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_subsidio" id="6D639951-DC3C-D792-E6B9-E718E468F613">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:19:14 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_subsidio" id="4A8A2864-308A-7C07-205A-8B703604273D">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:21:42 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_subsidio" id="5EF914E6-7385-0546-30BC-4582C17DB7E1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:21:42 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30BD295F-EC97-132D-A8E0-664F359786CF" name="Subsidio PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-11 04:07:36 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
