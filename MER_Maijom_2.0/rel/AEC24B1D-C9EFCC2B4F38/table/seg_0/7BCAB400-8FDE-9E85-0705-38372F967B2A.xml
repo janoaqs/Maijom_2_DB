@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BCAB400-8FDE-9E85-0705-38372F967B2A" name="Solicitud">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>4472678E-60FD-F769-F87F-38D6B55F9D8B</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="2F117500-7E06-2F5B-E6CB-347459FFAA66">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>19B1B36D-8167-2499-9A38-609F8CF0A781</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="2C0E77F2-ECFF-1E2A-74F4-12304DE59875">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>0A1D87AF-9973-66ED-20D0-DB5D39298FC4</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postulacion_id_postulacion" id="0AAE672C-D079-DA3A-5DBC-C84593273328">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>0795CECF-7B9B-1247-F501-1A0BB622B819</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F250EB4-C7D8-EA0E-AC9F-F2B8129540EA" referredColumn="9BFAB9AB-9AEC-8BC6-5879-D328C213E8D4"/>
+</associations>
+</Column>
+<Column name="RSH_id_rsh" id="5E4D48EB-2C4D-2342-1272-A6E2801CA67A">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>0327611D-E5B6-86B5-C817-F9E29855AAD6</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B06F08F6-8649-F29B-71C2-E72CB6D71C6B" referredColumn="2562D461-9C60-123F-90C5-AA75C2CC7F62"/>
+</associations>
+</Column>
+<Column name="Estado_id_estado" id="CCE9E43F-F909-5F16-1AB2-3FDCD2A7DC81">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>645E2096-F4E3-2F00-3D3E-78AB0258FF71</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D787E6D-6C54-D1ED-DD44-273CD4B130AC" referredColumn="1650F6F6-0FF8-BCEA-C6C3-E9E1906FB3FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEC43C0F-C049-5EF9-46DB-7BD15F01F1C1" name="Solicitud_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>E675A30C-3D43-3337-392B-8081473899AC</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F117500-7E06-2F5B-E6CB-347459FFAA66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A2DFCD4-05CD-1DAC-FCA7-615C211983D3" name="Solicitud_Postulacion_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>E4D442E8-F75A-1BCD-D568-635C99FE63B0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAE672C-D079-DA3A-5DBC-C84593273328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DF79FE0-60F2-6E26-1006-E80D3C94719D" name="Solicitud_Estado_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>F430045F-7E46-388F-A1E9-DC12EB33E985</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE9E43F-F909-5F16-1AB2-3FDCD2A7DC81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D10E2C5-0756-B6A8-CEAE-72A33C6DCFF5" name="Solicitud_RSH_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>F45C3980-4E50-A8CB-719B-7A3A7A9B2962</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4D48EB-2C4D-2342-1272-A6E2801CA67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

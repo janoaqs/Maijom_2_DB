@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB1DD97A-8903-BCCA-25B9-88A5DE302D60" containerWithKeyObject="2F7605A9-26DE-683D-C7A9-530E1291152A" localFKIndex="60706411-CC4B-F164-9A87-4453D69506AE" name="Postulacion_Serviu_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>B9319512-97FD-CB1F-67BE-CD14857FF702</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referredTableLongName>Serviu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CFD221-19CE-B9FA-8EA7-871B4A9815CE</referredTableID>
+<keyObject>E1BFDACD-AC2A-8CF0-4C7A-F8C57257FF14</keyObject>
+<referredKeyID>E1BFDACD-AC2A-8CF0-4C7A-F8C57257FF14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_serviu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

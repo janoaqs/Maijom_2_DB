@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F7605A9-26DE-683D-C7A9-530E1291152A" name="Postulacion">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>F5C9723A-FA4F-FA1A-C8B3-D80BC123DA1A</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_postulacion" id="9BFAB9AB-9AEC-8BC6-5879-D328C213E8D4">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>F9903FC9-1856-2817-24CC-6B216B3858A0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_postulacion" id="919D5468-1125-6C6B-91A9-341791F8A1BC">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>B5D88281-81BD-8AE2-B704-62EDD7A90D12</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino_postulacion" id="9DC654F2-5403-27E6-63DD-898C087720A6">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>45A2EFA3-D988-0294-EAE3-7F9F4983C061</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subsidio_id_subsidio" id="98FD79E0-C4DE-6A76-9B6B-92D0721CD221">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>A164AA85-F0D0-AF85-8AB6-0BE3129C2080</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D528C8D-0467-CF53-52F6-30C90AF818D8" referredColumn="DAF18179-AFD7-5C29-696B-20B441C7A175"/>
+</associations>
+</Column>
+<Column name="Estado_id_estado" id="B13CF7C9-3CA8-CE16-3C04-AD9ADFE9E6DE">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>DA17AA31-02DD-36FA-1EE0-36A239B77EF4</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5A3F03B-6965-3027-A234-954A1665B330" referredColumn="1650F6F6-0FF8-BCEA-C6C3-E9E1906FB3FF"/>
+</associations>
+</Column>
+<Column name="Serviu_id_serviu" id="106F77CB-97D8-4F49-0B67-DC348184B2F2">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>4BD9C3FC-FBE3-A3DB-35C3-43120D23D968</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB1DD97A-8903-BCCA-25B9-88A5DE302D60" referredColumn="8A617DEE-8904-092D-80F9-F5BB14FC3E0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2892D6A4-8559-C7C0-9B3F-17F5015C2F50" name="Postulacion_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>B967401E-F903-8925-7044-57DA22EE1004</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BFAB9AB-9AEC-8BC6-5879-D328C213E8D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFC849F7-97C6-7B58-3B18-BF3A51658C2F" name="Postulacion_Estado_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>23F95A91-73EF-3C9F-0D8F-3142C253C578</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13CF7C9-3CA8-CE16-3C04-AD9ADFE9E6DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF5C60A-60A8-C18A-DCA4-22466EB7F59E" name="Postulacion_Subsidio_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>57499ACE-8080-3DE2-BA38-14352FE6DC69</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98FD79E0-C4DE-6A76-9B6B-92D0721CD221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60706411-CC4B-F164-9A87-4453D69506AE" name="Postulacion_Serviu_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-12 23:41:28 UTC</createdTime>
+<generatorID>B9319512-97FD-CB1F-67BE-CD14857FF702</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="106F77CB-97D8-4F49-0B67-DC348184B2F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
