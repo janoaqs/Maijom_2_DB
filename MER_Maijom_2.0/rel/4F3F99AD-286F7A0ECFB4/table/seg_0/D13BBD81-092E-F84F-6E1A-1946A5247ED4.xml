@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D13BBD81-092E-F84F-6E1A-1946A5247ED4" name="Persona">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>81937E56-3DD7-255F-F32A-52873BA43F7D</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_persona" id="D91F1E1C-3C96-BE8B-73EA-0083E4C7C558">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>26B3DF3C-478F-4DF8-A33E-672A9A724CDA</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres_persona" id="EDA40709-8258-E0FB-8F92-28A4E058FD53">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>BB79E99A-ECF3-C610-8A6F-6D35F43D4628</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1_persona" id="8BFF5032-1C80-FD37-C290-196D42BF9A68">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>3CD1B2B9-8DF5-FBF2-693E-2674F57146E1</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2_persona" id="66C9544A-EE01-0EFD-C0B5-8F29D55FA9AC">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>92256A46-6B33-1BCB-5328-E36E690C1CE1</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento_persona" id="0C81DC05-6610-5ADA-8F05-F3AABC998B38">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>756BA45B-800F-1070-22E0-477068DDB797</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo_persona" id="C4807443-5020-2D0A-87E4-64FF10252DD7">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>8C7760B6-931F-BFF5-13D5-332CF09E4CA7</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad_persona" id="0AE8ED7A-EE28-1342-332D-74A26DFCB868">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>1A64DC76-5BEA-F1A8-B033-E05FE5AEB4EC</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discapacidad_persona" id="5AD0DD2C-1F27-AA6F-CBF2-342DD61FD3BC">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>EF6EE053-DFE6-583F-C505-0AD75AF68024</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9131C81E-ADD6-8FB8-0687-219124608484" name="Persona_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>7374231B-D9C7-02FB-2ED4-D29A6A0572D1</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91F1E1C-3C96-BE8B-73EA-0083E4C7C558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C47D06F3-148F-026A-0F5E-4DD34DE43CC5" name="NoticiaImagen">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Noticia_id_noticia" id="D4472D6A-109A-2FEF-0163-22D03C7D7BD1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B857FAA-5DFD-1AB4-8A88-A8B92E8A8FCD" referredColumn="7DD27839-5DA6-325A-8BDF-88A99821DFC7"/>
+</associations>
+</Column>
+<Column name="Imagen_id_imagen" id="AA74E802-A309-7834-BB3E-BFB566EEFBF0">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2415A3A3-0F99-ACFC-43A7-82735202FAAE" referredColumn="F430B6CC-6EC4-E8F7-5D0F-430251ADF656"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8F894B7-49AC-0FDD-5BC9-048E8EAB4E1D" name="NoticiaImagen_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4472D6A-109A-2FEF-0163-22D03C7D7BD1"/>
+<colUsage columnID="AA74E802-A309-7834-BB3E-BFB566EEFBF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F003751C-2BEF-6186-D37B-FBED3A6E3C8F" name="NoticiaImagen_Noticia_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>817FEC02-6935-7A9D-7307-B0E728AF0C17</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4472D6A-109A-2FEF-0163-22D03C7D7BD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAE59729-CE94-CE66-4E4D-4D845820E6B5" name="NoticiaImagen_Imagen_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>817FEC02-6935-7A9D-7307-B0E728AF0C17</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA74E802-A309-7834-BB3E-BFB566EEFBF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

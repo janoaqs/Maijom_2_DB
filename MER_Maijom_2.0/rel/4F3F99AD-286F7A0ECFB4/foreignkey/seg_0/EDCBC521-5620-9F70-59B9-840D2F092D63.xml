@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDCBC521-5620-9F70-59B9-840D2F092D63" containerWithKeyObject="EDBCA9C6-2747-F325-1AC7-AF2BDA9C371F" localFKIndex="D3A377F9-B16E-51F9-4CF1-B351A4FD1CD0" name="ProyectoImagen_Proyecto_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>ACC4063B-C9FC-3232-D187-EE0BDE37DF81</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referredTableLongName>Proyecto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3708407-E076-A115-316B-AAB3EE1634BC</referredTableID>
+<keyObject>312E14EA-5315-4AF1-8515-A6664A57F999</keyObject>
+<referredKeyID>312E14EA-5315-4AF1-8515-A6664A57F999</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_proyecto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

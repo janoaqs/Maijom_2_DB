@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E6E92BC-6D58-0017-20D7-82A2E8894154" name="Comuna">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>00FA36C3-47BA-27B7-9D8F-7128177B62CF</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="1101B4C5-B953-C57C-CB63-E19F513CB386">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>8039E5E0-8B16-915E-953A-7EDC65BC9436</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comuna" id="0C407C78-037E-8263-3D4F-3FFB0C052102">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>46394D71-3863-B63C-1320-B377BEDD8004</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serviu_id_serviu" id="2E8D95D3-39A6-59FD-845F-6551D2302132">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>D1E46CC8-14D4-3253-E317-050B318ACB46</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="648B16C7-80A5-7F3D-53E6-1CF5394FBB10" referredColumn="BDF064B8-4ED6-F12A-229E-B1FCADF0780E"/>
+</associations>
+</Column>
+<Column name="Region_id_region" id="F8AEEADD-15C4-FD74-2925-3C63548419D3">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>7421815D-E556-70A9-5DBD-F8F479D9BD60</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C37A61CC-15D0-8B08-D31E-95A0FE13C921" referredColumn="F7D02C0E-1121-85C9-C82B-CE66E394D444"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6638C24C-E555-F5A1-F168-E588D6F173B2" name="Comuna_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>CFA34EE8-BC8E-B03D-9C69-480092FE98FF</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1101B4C5-B953-C57C-CB63-E19F513CB386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="365CDF15-AA83-988D-2531-96B08944913E" name="Comuna_Region_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>650BD3EE-7E5D-DA4A-68A6-29093C76CDFD</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8AEEADD-15C4-FD74-2925-3C63548419D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FA97F97-5B15-69F5-6E5F-F72C75141F92" name="Comuna_Serviu_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>36D854B5-EF68-8C6E-5B3E-C363D4C2C1E6</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E8D95D3-39A6-59FD-845F-6551D2302132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

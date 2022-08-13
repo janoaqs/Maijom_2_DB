@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDBCA9C6-2747-F325-1AC7-AF2BDA9C371F" name="ProyectoImagen">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Imagen_id_imagen" id="145ED30B-89DF-D8A2-899B-B8BF31208A30">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8328D652-BACE-9CA1-693E-B91E7BEFA151" referredColumn="F430B6CC-6EC4-E8F7-5D0F-430251ADF656"/>
+</associations>
+</Column>
+<Column name="Proyecto_id_proyecto" id="79133E87-4EC4-2E60-40F9-8125D651EE41">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDCBC521-5620-9F70-59B9-840D2F092D63" referredColumn="F6E95FF2-7BBF-CD8A-A740-535C780430E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5130868-F2C1-DEB8-3D5C-1D748C0AE086" name="ProyectoImagen_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="145ED30B-89DF-D8A2-899B-B8BF31208A30"/>
+<colUsage columnID="79133E87-4EC4-2E60-40F9-8125D651EE41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E47CEB9F-0C2F-BA3F-252E-04F1A8F9290F" name="ProyectoImagen_Imagen_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>ACC4063B-C9FC-3232-D187-EE0BDE37DF81</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="145ED30B-89DF-D8A2-899B-B8BF31208A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3A377F9-B16E-51F9-4CF1-B351A4FD1CD0" name="ProyectoImagen_Proyecto_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>ACC4063B-C9FC-3232-D187-EE0BDE37DF81</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79133E87-4EC4-2E60-40F9-8125D651EE41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

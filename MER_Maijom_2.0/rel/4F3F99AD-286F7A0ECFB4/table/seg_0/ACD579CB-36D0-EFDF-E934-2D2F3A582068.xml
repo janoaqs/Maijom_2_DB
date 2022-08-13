@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACD579CB-36D0-EFDF-E934-2D2F3A582068" name="PersonaRSH">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RSH_id_rsh" id="E6ADC580-E296-45DC-CC0B-B07D6F1736E1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A10DC1B5-B19D-6900-916E-E367CA9F5EA5" referredColumn="F5AAE099-419D-E822-1AFB-7DBFAAF8718C"/>
+</associations>
+</Column>
+<Column name="Persona_rut_persona" id="1E1C76A5-49C6-2465-465C-4216EB63DC17">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65FE91AF-A313-E1D2-3C32-4CEC7E37EB53" referredColumn="D91F1E1C-3C96-BE8B-73EA-0083E4C7C558"/>
+</associations>
+</Column>
+<Column name="Parentezco" id="20EB56F4-3BDE-C368-F074-D6506E7E530E">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>5142B550-8D22-1142-0D2E-A856DC5B8E73</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_ingreso" id="4375B053-99E1-90B4-BE96-85C5EC590FA5">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>5705865B-4131-6817-0D06-07CE46ACE921</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E26821A-07AB-8452-77FE-5AEFB5DC3C4F" name="PersonaRSH_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6ADC580-E296-45DC-CC0B-B07D6F1736E1"/>
+<colUsage columnID="1E1C76A5-49C6-2465-465C-4216EB63DC17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CBFD1D7-186C-9A94-D116-918C64E0B7CE" name="PersonaRSH_RSH_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>06910BDE-5488-C9D9-A850-48CB5A848226</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6ADC580-E296-45DC-CC0B-B07D6F1736E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0434B91-C58E-B251-4FBB-67A2A835AEE3" name="PersonaRSH_Persona_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>06910BDE-5488-C9D9-A850-48CB5A848226</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1C76A5-49C6-2465-465C-4216EB63DC17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C086989F-8C06-A95E-B71E-6C97ED88360E" name="Serviu">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>11E6BBC5-F934-1A60-C8F1-113CC13F19CD</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_serviu" id="BDF064B8-4ED6-F12A-229E-B1FCADF0780E">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>3F125F3D-18F5-A90E-7CE1-CEB5B097F920</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_serviu" id="D31EAF75-EB4E-D692-013E-8A71468ABBEB">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>F81C3FAF-A966-61C2-B9F6-0A9D31CFE3E4</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id_usuario" id="25D4FD31-1058-BBF4-0DAE-3F2C8B8D0B63">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>137FA1B1-9579-C2C5-0A78-65D20425B755</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="370238BD-ACCB-327B-4C67-F5FD4C8DE76C" referredColumn="0B279EA7-4362-E553-E5B5-93657163446B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="411A98A8-BA66-79B5-9C27-DEFAC1CACDBA" name="Serviu_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>B5646F70-9502-DA5F-4A05-2E8D9B202B0D</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDF064B8-4ED6-F12A-229E-B1FCADF0780E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F00633E6-7B4E-2E70-0F78-9BD439E4304D" name="Serviu__IDX">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>208669C4-0DC4-A2CF-976B-EE977DFE5CC7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="25D4FD31-1058-BBF4-0DAE-3F2C8B8D0B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E16E502-FB27-E2DD-97C4-572491CC0362" name="Serviu_Usuario_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>208669C4-0DC4-A2CF-976B-EE977DFE5CC7</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D4FD31-1058-BBF4-0DAE-3F2C8B8D0B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

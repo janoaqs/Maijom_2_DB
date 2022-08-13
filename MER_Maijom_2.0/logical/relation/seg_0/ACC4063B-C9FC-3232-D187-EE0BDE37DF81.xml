@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProyectoImagen" directorySegmentName="seg_0" id="ACC4063B-C9FC-3232-D187-EE0BDE37DF81">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:02 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4FF80E09-0398-5C9A-C54D-51A38D75F806</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D58F46E-AC13-3B2F-DFD2-016FC94247BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

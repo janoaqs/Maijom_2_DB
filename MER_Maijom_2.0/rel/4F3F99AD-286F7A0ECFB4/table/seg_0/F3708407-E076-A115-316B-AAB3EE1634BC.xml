@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3708407-E076-A115-316B-AAB3EE1634BC" name="Proyecto">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>2D58F46E-AC13-3B2F-DFD2-016FC94247BD</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_proyecto" id="F6E95FF2-7BBF-CD8A-A740-535C780430E2">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>1203B8A8-AF6B-02FE-EC96-5B4B6FE4A9A5</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="casas_disponibles_proyecto" id="8C8A9A57-5777-547A-BA9B-BB30F3E2CEA7">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>F36F0F22-ED87-77E3-7AAE-1AF45E89A7FF</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inmobiliaria_id_inmobiliaria" id="B1A98B34-F5CA-DA16-3D1B-2DA69206B5C2">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>15684F1D-F523-DB08-2268-CF7EF137613E</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="734EBD55-1A1D-92E0-E044-FE85EDCC98C3" referredColumn="104515D1-DBF1-4B61-FC66-F7B3EA74B0C0"/>
+</associations>
+</Column>
+<Column name="Comuna_id_comuna" id="0081CE29-2936-6586-EFC7-8D72581012D9">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>3F55CADD-D18A-8892-7222-143A46EC59E2</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB0F723C-269D-A563-3192-140C5C97E1B9" referredColumn="1101B4C5-B953-C57C-CB63-E19F513CB386"/>
+</associations>
+</Column>
+<Column name="Subsidio_id_subsidio" id="35573760-FE76-E187-EA39-C9390C55A919">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>45582410-E086-EF2A-880E-96A6D1F2D65C</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CD53607-2722-AA0F-1603-32A55FA2B3E6" referredColumn="4EAE5958-1F76-DBD8-3C72-36650A4B092C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="312E14EA-5315-4AF1-8515-A6664A57F999" name="Proyecto_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>4615C6D2-5FCA-E165-099F-79941F93A3F0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E95FF2-7BBF-CD8A-A740-535C780430E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C451730-AB19-54F5-BCD8-3BA81EE06C50" name="Proyecto_Comuna_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>F22BB5ED-5B9D-EC78-D0E6-C6A1A6EC9CE1</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0081CE29-2936-6586-EFC7-8D72581012D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D1B7A4A-16E5-1FF8-8FFF-B9F2E3987280" name="Proyecto_Inmobiliaria_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>3A761749-10C1-B93C-0188-1B2A381DC0ED</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A98B34-F5CA-DA16-3D1B-2DA69206B5C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEC0B35F-FC18-9A0B-56A6-A1F33695E2AA" name="Proyecto_Subsidio_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 23:34:52 UTC</createdTime>
+<generatorID>E61DC511-A6C8-3805-4F87-185786C7C796</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35573760-FE76-E187-EA39-C9390C55A919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
