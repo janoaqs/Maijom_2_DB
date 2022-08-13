@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PersonaCuenta" directorySegmentName="seg_0" id="1CD5C310-A378-6093-D6DC-01A580345D80">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 20:07:52 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<sourcePk>7374231B-D9C7-02FB-2ED4-D29A6A0572D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81937E56-3DD7-255F-F32A-52873BA43F7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>677566CA-ED42-B462-A4BD-3204E530F903</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -3,6 +3,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-11 04:43:37 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-11 04:43:42 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -26,6 +32,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-11 04:44:11 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -37,10 +46,28 @@
 <createdTime>2022-08-12 23:00:46 UTC</createdTime>
 <generatorID>36D854B5-EF68-8C6E-5B3E-C363D4C2C1E6</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <referedAttribute>3F125F3D-18F5-A90E-7CE1-CEB5B097F920</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="7421815D-E556-70A9-5DBD-F8F479D9BD60">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 18:42:30 UTC</createdTime>
+<generatorID>650BD3EE-7E5D-DA4A-68A6-29093C76CDFD</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<referedAttribute>D9384E68-E509-8FB1-B6E4-F792520099DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -49,6 +76,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-11 04:43:58 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8039E5E0-8B16-915E-953A-7EDC65BC9436</attributeRef>

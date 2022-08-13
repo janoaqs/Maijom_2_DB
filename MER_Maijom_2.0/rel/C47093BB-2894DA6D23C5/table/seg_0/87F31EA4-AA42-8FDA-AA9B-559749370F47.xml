@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87F31EA4-AA42-8FDA-AA9B-559749370F47" name="Tramo">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>840DE9A5-63F7-6126-5E5C-D96C0A59B26B</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tramo" id="A0B1893D-54DA-22F3-6F38-9B406DBEEDAD">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>CE0C9917-9EAA-55BA-1A86-B9A3D516EBC4</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tramo" id="A685B96D-7884-17C3-664D-B803E8DB5E73">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>40450826-F856-32A6-C749-D5D678FCDAD5</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ahorro_min_tramo" id="DDE5D5BA-5724-0395-E1A7-67EE5EF9DC96">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>91988E77-6617-1139-888B-8A6C702A395C</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uf_max_tramo" id="2A10659E-27DB-D96C-5CFA-7BD3D1E631CB">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>CC5CCAF7-55A5-E61A-F8A4-63BF503D3F4B</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subsidio_id_subsidio" id="DE473D4C-98A2-AF37-529E-F87B1B71F202">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>539C5D39-5FCF-9DA0-DEBB-5199A76211C8</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8FB7EC9-84DF-E1F4-9422-081BEB603EF0" referredColumn="3C366D3E-6129-2748-1BDB-8F6C380C74B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79CF39B6-CDEF-02F1-0E6F-E3A28B18178B" name="Tramo_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>6CD20FF5-0439-36CA-CCCC-94A3CD2AAE00</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B1893D-54DA-22F3-6F38-9B406DBEEDAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB5023F0-5100-939D-0991-A013CA65659F" name="Tramo_Subsidio_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>093A2734-3A3C-C658-001E-F960DE062FCF</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE473D4C-98A2-AF37-529E-F87B1B71F202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

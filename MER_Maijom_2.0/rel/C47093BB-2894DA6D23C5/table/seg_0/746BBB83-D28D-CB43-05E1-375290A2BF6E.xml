@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="746BBB83-D28D-CB43-05E1-375290A2BF6E" name="Inmobiliaria">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>CF2E53F4-69C7-B119-2673-CD640579D934</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inmobiliaria" id="6D1A0992-BAC2-1306-CBE3-44EB88D8CABF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>2B4AD5C4-2F98-D066-6D55-3DE09EBC7E3A</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_inmobiliaria" id="B1817757-D759-EBBB-674D-F7E7CE63749C">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>A7A26225-F74D-EECF-BEA7-45BEC4F8AC42</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_inmobiliaria" id="57E096D5-2406-77C0-AB6F-BED3040B46BB">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>490D00C8-E54F-FA93-13CF-BEC6E37C12E9</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id_usuario" id="6361047F-556B-0416-AAF4-568D9CCE168F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>CB25E91A-19C3-AAD2-F443-BCE053492F0C</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F8E778C-7951-4665-69D7-B8C4DCD675C0" referredColumn="05AD0A70-0278-B785-1E5B-D0E365CC5670"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E1679F7-FB31-0303-96ED-819A92FCB0FC" name="Inmobiliaria_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>D460F1D2-82C5-5AE5-BECD-F82CF7FACE5C</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D1A0992-BAC2-1306-CBE3-44EB88D8CABF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE47BCB5-CE0A-72FC-7B78-B25DAF6987CC" name="Inmobiliaria__IDX">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>65F5AB52-86AD-9CFD-C8BA-54BBFC8A38C9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6361047F-556B-0416-AAF4-568D9CCE168F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B428EDDD-DD90-20EC-74AC-FFF23C26B0ED" name="Inmobiliaria_Usuario_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>65F5AB52-86AD-9CFD-C8BA-54BBFC8A38C9</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6361047F-556B-0416-AAF4-568D9CCE168F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

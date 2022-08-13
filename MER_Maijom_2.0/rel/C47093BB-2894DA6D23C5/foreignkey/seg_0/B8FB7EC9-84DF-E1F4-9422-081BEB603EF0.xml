@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8FB7EC9-84DF-E1F4-9422-081BEB603EF0" containerWithKeyObject="87F31EA4-AA42-8FDA-AA9B-559749370F47" localFKIndex="EB5023F0-5100-939D-0991-A013CA65659F" name="Tramo_Subsidio_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>093A2734-3A3C-C658-001E-F960DE062FCF</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referredTableLongName>Subsidio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FC87C7B-571D-B1EF-FE67-663FF619D1C2</referredTableID>
+<keyObject>431CF4D9-B9D6-BD67-CF18-621AD0B7AF0C</keyObject>
+<referredKeyID>431CF4D9-B9D6-BD67-CF18-621AD0B7AF0C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_subsidio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD1C7F31-2F4A-7940-8965-07BF8202B956" name="Admin">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>658F25C3-0A2D-07FE-7EC5-460FE9344349</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="DB2EC3ED-0117-5653-6073-BD4FC9FBD033">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>0A289240-4752-74D6-08ED-62FE7484F43C</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_admin" id="A83AB4F4-2BCE-4DAE-A624-68CB1CEB5A73">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>E8EF2E0E-64DD-220E-682D-0FF9FCA97D66</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_admin" id="93EBB465-BFFA-A92C-D6BA-9FD9B43264EF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>26D906BC-9D2E-B204-857C-F6D6F5FA4A75</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_admin" id="9657E100-7DA7-8E35-D319-0EBE669C8329">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>590C862F-48A2-B3D0-ED24-4B4A20DF45DC</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id_usuario" id="09A3A191-C798-C707-5432-AA2027933466">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>B8C64327-BC09-6EBD-0FE9-8F7D5A67551D</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89D8B17F-7774-FBB5-4520-8B32B0D68DF4" referredColumn="05AD0A70-0278-B785-1E5B-D0E365CC5670"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28BBA9F0-CA12-E83F-BD2A-A2DEF6AD75D8" name="Admin_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>B9CAFF20-5416-975C-6E9E-D144B3D97AE0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2EC3ED-0117-5653-6073-BD4FC9FBD033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556C1498-F514-729A-FFBB-D5491A22AD44" name="Admin__IDX">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F8783ADA-0BEA-5A90-281D-947F63B52CD7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="09A3A191-C798-C707-5432-AA2027933466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B7A96B8-F0E9-FA0B-7BFB-D55F14CB7186" name="Admin_Usuario_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>F8783ADA-0BEA-5A90-281D-947F63B52CD7</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09A3A191-C798-C707-5432-AA2027933466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

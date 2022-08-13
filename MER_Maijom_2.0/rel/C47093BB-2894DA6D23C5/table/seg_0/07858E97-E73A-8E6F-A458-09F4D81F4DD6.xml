@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07858E97-E73A-8E6F-A458-09F4D81F4DD6" name="ClaveU">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>1BD8ABB7-9475-215C-B58F-7423BF143943</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_claveu" id="DA5E6215-4751-B21C-3023-4D2613482D40">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>78A815D4-A859-05DB-3E5B-6EF26FB8C13F</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password_claveu" id="E8432ED2-F46C-03CE-5CC7-BD0836D29A01">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>4BEC38D7-4FEA-1766-2FD1-1D78ADA1C555</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_rut_persona" id="DCC196EA-3F35-4B91-994D-92C21C5A9F34">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>E5A71C92-2040-3A25-FBCF-A440B1C3B577</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6948F7AD-0135-D458-E4C0-8D2B44721832" referredColumn="680F7890-488D-DC8C-DC1B-9187ACBD0800"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDCD26E5-23A8-F4EF-5E15-A6F951F60119" name="ClaveU_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>72E8D3D9-BAC2-67FD-D0CE-FED30E86EF41</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA5E6215-4751-B21C-3023-4D2613482D40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7677B5EA-6E70-0318-DBD0-384DF8F22B51" name="ClaveU__IDX">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DE23C884-0987-DAF5-C723-74CBE2CB1397</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DCC196EA-3F35-4B91-994D-92C21C5A9F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A35FB3AD-2F9D-70B0-AB57-97D642E06C35" name="ClaveU_Persona_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 22:00:17 UTC</createdTime>
+<generatorID>DE23C884-0987-DAF5-C723-74CBE2CB1397</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC196EA-3F35-4B91-994D-92C21C5A9F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

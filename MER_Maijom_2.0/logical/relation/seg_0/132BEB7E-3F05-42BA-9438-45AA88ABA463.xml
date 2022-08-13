@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PrpyectoImagen" directorySegmentName="seg_0" id="132BEB7E-3F05-42BA-9438-45AA88ABA463">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 20:16:28 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<sourcePk>4615C6D2-5FCA-E165-099F-79941F93A3F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D58F46E-AC13-3B2F-DFD2-016FC94247BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FF80E09-0398-5C9A-C54D-51A38D75F806</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegionComuna" directorySegmentName="seg_0" id="650BD3EE-7E5D-DA4A-68A6-29093C76CDFD">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 18:42:30 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<sourcePk>1D26D539-C7D6-AD78-2914-9AC440D1A207</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AAB2B39A-C6E9-FE82-A85C-FC66A16C2217</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00FA36C3-47BA-27B7-9D8F-7128177B62CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

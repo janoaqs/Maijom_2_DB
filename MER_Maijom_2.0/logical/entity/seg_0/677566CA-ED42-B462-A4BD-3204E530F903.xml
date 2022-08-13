@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D58F46E-AC13-3B2F-DFD2-016FC94247BD" name="Proyecto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="677566CA-ED42-B462-A4BD-3204E530F903" name="Cuenta">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:57:11 UTC</createdTime>
+<createdTime>2022-08-13 20:04:59 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
 <item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_proyecto" id="1203B8A8-AF6B-02FE-EC96-5B4B6FE4A9A5">
+<Attribute name="id_cuenta" id="D952E786-E534-0261-7843-5B2DFD64D4F3">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:57:15 UTC</createdTime>
+<createdTime>2022-08-13 20:05:38 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
 <item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
@@ -27,56 +27,55 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="casas_disponibles_proyecto" id="F36F0F22-ED87-77E3-7AAE-1AF45E89A7FF">
+<Attribute name="tipo_cuenta" id="D0F391C3-B734-8034-D762-24713291904D">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:59:02 UTC</createdTime>
+<createdTime>2022-08-13 21:29:36 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
 <item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_inmobiliaria" id="15684F1D-F523-DB08-2268-CF7EF137613E">
-<createdBy>Jano</createdBy>
-<createdTime>2022-08-12 23:09:53 UTC</createdTime>
-<generatorID>3A761749-10C1-B93C-0188-1B2A381DC0ED</generatorID>
-<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
-<referedAttribute>2B4AD5C4-2F98-D066-6D55-3DE09EBC7E3A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_comuna" id="3F55CADD-D18A-8892-7222-143A46EC59E2">
-<createdBy>Jano</createdBy>
-<createdTime>2022-08-12 23:10:56 UTC</createdTime>
-<generatorID>F22BB5ED-5B9D-EC78-D0E6-C6A1A6EC9CE1</generatorID>
-<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
-<referedAttribute>8039E5E0-8B16-915E-953A-7EDC65BC9436</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_subsidio" id="45582410-E086-EF2A-880E-96A6D1F2D65C">
+<Attribute name="id_banco" id="A8B9F848-794C-646F-0F07-3CA2E801FDBB">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 23:12:42 UTC</createdTime>
-<generatorID>E61DC511-A6C8-3805-4F87-185786C7C796</generatorID>
+<createdTime>2022-08-13 20:07:30 UTC</createdTime>
+<generatorID>DBEA0184-61F3-ECC2-DF7B-FF085EC718F8</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
 <item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
 </engineerTo>
-<referedAttribute>BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F</referedAttribute>
+<referedAttribute>AB05F245-A420-60A6-C4BB-20E5208E4C67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_persona" id="7E662D54-E8D0-08A3-0872-8F851D9B70D7">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 20:07:52 UTC</createdTime>
+<generatorID>1CD5C310-A378-6093-D6DC-01A580345D80</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<referedAttribute>26B3DF3C-478F-4DF8-A33E-672A9A724CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_cuenta" id="E22CE763-5AD7-4617-BBE9-A353CC547750">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 21:09:03 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -84,16 +83,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4615C6D2-5FCA-E165-099F-79941F93A3F0" name="Proyecto PK">
+<identifier id="7A903322-A449-BB12-57F0-6089DEDBF133" name="Cuenta PK">
 <createdBy>Jano</createdBy>
-<createdTime>2022-08-12 03:57:29 UTC</createdTime>
+<createdTime>2022-08-13 20:05:45 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
 <item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1203B8A8-AF6B-02FE-EC96-5B4B6FE4A9A5</attributeRef>
+<attributeRef>D952E786-E534-0261-7843-5B2DFD64D4F3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

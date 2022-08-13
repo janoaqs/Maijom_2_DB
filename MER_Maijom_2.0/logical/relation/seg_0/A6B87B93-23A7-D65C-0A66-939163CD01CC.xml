@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SolicitudCuenta" directorySegmentName="seg_0" id="A6B87B93-23A7-D65C-0A66-939163CD01CC">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 20:06:02 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<sourcePk>7A903322-A449-BB12-57F0-6089DEDBF133</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>677566CA-ED42-B462-A4BD-3204E530F903</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4472678E-60FD-F769-F87F-38D6B55F9D8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

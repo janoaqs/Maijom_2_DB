@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BancoCuenta" directorySegmentName="seg_0" id="DBEA0184-61F3-ECC2-DF7B-FF085EC718F8">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-13 20:07:30 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+</engineerTo>
+<sourcePk>61E7E430-1977-EE44-6BD8-FC88E22A447C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C24A1E1-0D6C-E594-9758-EBA091365A03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>677566CA-ED42-B462-A4BD-3204E530F903</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
