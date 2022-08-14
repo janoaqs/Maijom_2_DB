@@ -18,8 +18,9 @@
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_serviu" id="F81C3FAF-A966-61C2-B9F6-0A9D31CFE3E4">
 <createdBy>Jano</createdBy>

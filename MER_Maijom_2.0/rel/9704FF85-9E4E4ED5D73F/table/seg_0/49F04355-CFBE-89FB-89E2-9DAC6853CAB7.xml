@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49F04355-CFBE-89FB-89E2-9DAC6853CAB7" name="Cuenta">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>677566CA-ED42-B462-A4BD-3204E530F903</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cuenta" id="59B2B485-2420-DE8E-BBA4-B2A8ED548CDF">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>D952E786-E534-0261-7843-5B2DFD64D4F3</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_cuenta" id="47071FBA-486D-280A-9459-698B396C204E">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>D0F391C3-B734-8034-D762-24713291904D</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_cuenta" id="5D71A3D4-FB87-EE76-0033-4102F00CDFDE">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>E22CE763-5AD7-4617-BBE9-A353CC547750</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banco_id_banco" id="8ACFAC37-D9C1-B5C8-42C4-D5451F7B7096">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>A8B9F848-794C-646F-0F07-3CA2E801FDBB</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="504A49FF-08A4-3049-CDF4-3C39E657D86D" referredColumn="7CFF3BDF-080B-C40D-F08D-F295AADD485C"/>
+</associations>
+</Column>
+<Column name="Persona_rut_persona" id="9955C2B7-03DA-7195-8133-3D97F7F6CD8F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>7E662D54-E8D0-08A3-0872-8F851D9B70D7</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A1FD93-F943-0F24-F060-96D8D032C0BF" referredColumn="A606E02A-892A-AE8F-F227-DBB08A3A5A5A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95F984E3-3980-DEE7-535D-DFEC85AC4F82" name="Cuenta_PK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>7A903322-A449-BB12-57F0-6089DEDBF133</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B2B485-2420-DE8E-BBA4-B2A8ED548CDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="604644F7-C927-A8F1-314F-5BA2E3D17DB0" name="Cuenta_Banco_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>DBEA0184-61F3-ECC2-DF7B-FF085EC718F8</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ACFAC37-D9C1-B5C8-42C4-D5451F7B7096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C869D5E-0FFA-FC49-6708-24936C9BE621" name="Cuenta_Persona_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>1CD5C310-A378-6093-D6DC-01A580345D80</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9955C2B7-03DA-7195-8133-3D97F7F6CD8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

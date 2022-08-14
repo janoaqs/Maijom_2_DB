@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="658F25C3-0A2D-07FE-7EC5-460FE9344349" name="Admin">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="658F25C3-0A2D-07FE-7EC5-460FE9344349" name="Administrador">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:42:56 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2022-08-12 03:43:25 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,33 +32,33 @@
 <createdTime>2022-08-12 03:45:56 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="apellido_admin" id="26D906BC-9D2E-B204-857C-F6D6F5FA4A75">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:46:14 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cargo_admin" id="590C862F-48A2-B3D0-ED24-4B4A20DF45DC">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:46:33 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,7 +72,7 @@
 <generatorID>F8783ADA-0BEA-5A90-281D-947F63B52CD7</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <referedAttribute>A08F20BE-EF27-A013-33DB-DF697DAD9283</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,7 +87,7 @@
 <createdTime>2022-08-12 03:43:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
+<item key="9704FF85-4285-12F6-A186-9E4E4ED5D73F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

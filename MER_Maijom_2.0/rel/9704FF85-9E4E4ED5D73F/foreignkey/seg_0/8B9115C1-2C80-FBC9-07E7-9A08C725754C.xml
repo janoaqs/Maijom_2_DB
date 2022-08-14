@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B9115C1-2C80-FBC9-07E7-9A08C725754C" containerWithKeyObject="3BBDB5CA-7191-5A90-74C7-816F6607CC9B" localFKIndex="80496348-74F6-4CD5-3888-13A81E4A8D8E" name="Solicitud_RSH_FK">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:06:38 UTC</createdTime>
+<generatorID>F45C3980-4E50-A8CB-719B-7A3A7A9B2962</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referredTableLongName>RSH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAADA870-7733-1177-F4BA-9F364AD0EAD0</referredTableID>
+<keyObject>D49AC319-1AD1-579E-EE6B-816CD38B3C1C</keyObject>
+<referredKeyID>D49AC319-1AD1-579E-EE6B-816CD38B3C1C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rsh</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

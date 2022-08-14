@@ -3,9 +3,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:39:13 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,21 +16,25 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:39:20 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nombre_imagen" id="5BF61D90-6CDE-761F-99CE-CC6A614CCA1D">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 18:02:21 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="url_imagen" id="6135771B-5DD0-081C-743A-5B0CF3E3073F">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:39:33 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -46,9 +47,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:39:28 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8A1C70F3-7DB2-E4BD-1B83-5369B45552A2</attributeRef>

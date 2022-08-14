@@ -3,9 +3,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 04:02:24 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,16 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 04:02:29 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombres_persona" id="BB79E99A-ECF3-C610-8A6F-6D35F43D4628">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:02:16 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,9 +36,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:02:41 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -58,9 +46,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:02:41 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -71,9 +56,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:03:21 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -83,22 +65,16 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:05:53 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nacionalidad_persona" id="1A64DC76-5BEA-F1A8-B033-E05FE5AEB4EC">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 20:06:19 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -109,9 +85,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-13 18:28:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -124,9 +97,6 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 04:02:47 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="C47093BB-6759-8F41-A6B4-2894DA6D23C5" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>26B3DF3C-478F-4DF8-A33E-672A9A724CDA</attributeRef>
