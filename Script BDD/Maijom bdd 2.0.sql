@@ -157,9 +157,7 @@ add constraint Fk_direccion_comuna foreign key(id_comuna) references Comuna(id_c
 
 alter table Comuna
 add id_region varchar(10) not null,
-add id_serviu varchar(10) not null,
-add constraint Fk_comuna_region foreign key(id_region) references Region(id_region),
-add constraint Fk_comuna_serviu foreign key(id_serviu) references Serviu(id_serviu);
+add constraint Fk_comuna_region foreign key(id_region) references Region(id_region);
 
 alter table Tramo
 add id_subsidio int not null,
@@ -193,9 +191,15 @@ add rut_persona varchar(12) not null,
 add constraint Fk_cuenta_banco foreign key(id_banco) references Banco(id_banco),
 add constraint Fk_cuenta_persona foreign key(rut_persona) references Persona(rut_persona);
 
+alter table Usuario
+add id_direccion int not null,
+add constraint Fk_usuario_direccion foreign key(id_direccion) references Direccion(id_direccion);
+
 alter table Serviu
 add id_usuario int not null,
-add constraint Fk_serviu_usuario foreign key(id_usuario) references Usuario(id_usuario);
+add id_region varchar(10) not null,
+add constraint Fk_serviu_usuario foreign key(id_usuario) references Usuario(id_usuario),
+add constraint Fk_serviu_region foreign key(id_region) references Region(id_region);
 
 alter table Administrador
 add id_usuario int not null,
@@ -215,8 +219,8 @@ add constraint Fk_noticia_usuario foreign key(id_usuario) references Usuario(id_
 
 alter table Proyecto
 add id_inmobiliaria int not null,
-add id_comuna varchar(10) not null,
+add id_direccion int not null,
 add id_subsidio int not null,
 add constraint Fk_proyecto_inmobiliaria foreign key(id_inmobiliaria) references Inmobiliaria(id_inmobiliaria),
-add constraint Fk_proyecto_comuna foreign key(id_comuna) references Comuna(id_comuna),
+add constraint Fk_proyecto_direccion foreign key(id_direccion) references Direccion(id_direccion),
 add constraint Fk_proyecto_subisdio foreign key(id_subsidio) references Subsidio(id_subsidio);

@@ -3,6 +3,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:28:37 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:28:44 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:31:19 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,11 +44,28 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:31:47 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion" id="4659C3F5-0731-03E6-3AD5-13C305BE3B3F">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 23:21:42 UTC</createdTime>
+<generatorID>11C9ECDD-D3D9-F1EB-5617-10B7920EB8B0</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
+<referedAttribute>3DDC5C7B-976C-017B-707B-47D091342625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -47,6 +73,9 @@
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 03:29:12 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A08F20BE-EF27-A013-33DB-DF697DAD9283</attributeRef>

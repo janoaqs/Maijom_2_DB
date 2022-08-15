@@ -4,7 +4,7 @@
 <createdTime>2022-08-12 03:57:11 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2022-08-12 03:57:15 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2022-08-12 03:59:02 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <generatorID>3A761749-10C1-B93C-0188-1B2A381DC0ED</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <referedAttribute>2B4AD5C4-2F98-D066-6D55-3DE09EBC7E3A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,30 +53,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_comuna" id="3F55CADD-D18A-8892-7222-143A46EC59E2">
-<createdBy>Jano</createdBy>
-<createdTime>2022-08-12 23:10:56 UTC</createdTime>
-<generatorID>F22BB5ED-5B9D-EC78-D0E6-C6A1A6EC9CE1</generatorID>
-<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
-<engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
-</engineerTo>
-<referedAttribute>8039E5E0-8B16-915E-953A-7EDC65BC9436</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_subsidio" id="45582410-E086-EF2A-880E-96A6D1F2D65C">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 23:12:42 UTC</createdTime>
 <generatorID>E61DC511-A6C8-3805-4F87-185786C7C796</generatorID>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <referedAttribute>BF8F7D3D-C9FE-524B-9EFB-8044B2BFD85F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion" id="594B230A-8AF8-A47A-7E83-B2C9253AA142">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-14 21:23:23 UTC</createdTime>
+<generatorID>AD8C75DE-3BFF-BA7D-C6BB-7F7B3682A77A</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<engineerTo>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
+</engineerTo>
+<referedAttribute>3DDC5C7B-976C-017B-707B-47D091342625</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -89,7 +88,7 @@
 <createdTime>2022-08-12 03:57:29 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <engineerTo>
-<item key="4F3F99AD-1687-9273-B185-286F7A0ECFB4" value="true"/>
+<item key="721C010F-25DC-4BB5-6DE4-5BF01C8A8444" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
