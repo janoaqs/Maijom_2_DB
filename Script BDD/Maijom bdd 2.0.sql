@@ -34,8 +34,10 @@ nombre_region varchar(30) not null
 create table Tramo(
 id_tramo int primary key auto_increment,
 nombre_tramo varchar(30) not null,
-ahorro_min_tramo int not null,
-ufvivienda_tramo int not null
+ahorro_minuf_tramo int not null,
+valor_maxuf_tramo int not null,
+tope_ingresos_tramo int not null,
+tope_vulnerabilidad_tramo int not null
 )ENGINE = InnoDB;
 
 create table RSH(
@@ -57,9 +59,9 @@ puntajecorte_postulacion int not null
 
 create table Subsidio(
 id_subsidio int primary key auto_increment,
-nombre_subsidio varchar(30) not null,
+nombre_subsidio varchar(100) not null,
 codigo_subsidio varchar(10) not null,
-descripcion_subsidio varchar(100) not null
+descripcion_subsidio varchar(300) not null
 )ENGINE = InnoDB;
 
 create table Estado(

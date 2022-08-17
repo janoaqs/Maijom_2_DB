@@ -31,7 +31,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ahorro_min_tramo" id="91988E77-6617-1139-888B-8A6C702A395C">
+<Attribute name="ahorro_minuf_tramo" id="91988E77-6617-1139-888B-8A6C702A395C">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 21:10:31 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
@@ -40,9 +40,27 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="uf_max_tramo" id="CC5CCAF7-55A5-E61A-F8A4-63BF503D3F4B">
+<Attribute name="valor_maxuf_tramo" id="CC5CCAF7-55A5-E61A-F8A4-63BF503D3F4B">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 21:11:31 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tope_ingresos_tramo" id="A1ECB9E4-DD76-FC21-7757-649134D22046">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-17 19:22:50 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tope_vulnerabilidad_tramo" id="2337FFDA-B9B8-05FA-C3B1-42A5AE394DF1">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-17 19:27:37 UTC</createdTime>
 <ownerDesignName>MER_Maijom_2.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
