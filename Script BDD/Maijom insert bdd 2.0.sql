@@ -178,11 +178,63 @@ insert into Cuenta values(8,'Ahorro vivienda',5000000,4,'3855106K');
 insert into Subsidio values(1,'Postulación programa sectores medios','DS1',
 'Estos Subsidios están dirigidos a personas con capacidad de ahorro y 
 posibilidad de complementar el valor de la vivienda con un crédito hipotecario o recursos propios.');
-insert into Tramo values(2,'Tramo 1',30,2600,0,60,1);
-insert into Tramo values(3,'Tramo 2',40,2660,0,80,1);
-insert into Tramo values(4,'Tramo 3',80,2600,800000,0,1);
+insert into Tramo values(1,'Tramo 1',30,2600,0,60,1);
+insert into Tramo values(2,'Tramo 2',40,2660,0,80,1);
+insert into Tramo values(3,'Tramo 3',80,2600,800000,0,1);
 
 insert into Subsidio values(2,'Postulación programa fondo solidario de elección de vivienda','DS49',
 'Dirigido a familias que viven en situación de vulnerabilidad social, que no tienen capacidad de endeudamiento.');
-insert into Tramo values(5,'Tramo único',10,950,0,40,2);
+insert into Tramo values(4,'Tramo único',10,950,0,40,2);
 
+/*Estados*/
+/*Para postulacion*/
+insert into Estado values('E01','Abierta');
+insert into Estado values('E02','Cerrada');
+insert into Estado values('E03','En plazo extra');
+/*Para solicitud*/
+insert into Estado values('E04','En trámite');
+insert into Estado values('E05','Aprobada');
+insert into Estado values('E06','Rechazada');
+
+/*Postulacion*/
+insert into Postulacion values(1,'2022-08-14','2022-08-15',500,1,1,'E01','S08');
+
+/*Solicitudes*/
+insert into Solicitud values(1,'2022-08-14',1,1,'E04',1);
+insert into Solicitud values(2,'2022-08-14',1,2,'E04',2);
+insert into Solicitud values(3,'2022-08-14',1,3,'E04',3);
+insert into Solicitud values(4,'2022-08-14',1,4,'E04',4);
+insert into Solicitud values(5,'2022-08-14',1,5,'E04',5);
+insert into Solicitud values(6,'2022-08-14',1,6,'E04',6);
+insert into Solicitud values(7,'2022-08-14',1,7,'E04',7);
+insert into Solicitud values(8,'2022-08-14',1,8,'E04',8);
+
+/*Noticias*/
+/*Serviu*/
+insert into Noticia values(1,'Esta es una noticia del Serviu','2022-08-14',1);
+insert into Imagen values(1,'Imagen 1','Esto es una URL');
+insert into  NoticiaImagen values(1,1);
+/*Inmobiliaria*/
+insert into Noticia values(2,'Esta es una noticia del COPASA','2022-08-14',2);
+insert into Imagen values(2,'Imagen 2','Esto es una URL');
+insert into NoticiaImagen values(2,2);
+/*Admin*/
+insert into Noticia values(3,'Esta es una noticia de los un Admin','2022-08-14',3);
+insert into Imagen values(3,'Imagen 3','Esto es una URL');
+insert into NoticiaImagen values(3,3);
+
+/*Proyectos*/
+insert into Direccion values(12,'Las Heras','700','CM11');
+insert into Proyecto values(1,10,'Esta es una descripción','Proyecto 1',1,1,12);
+insert into Imagen values(4,'Imagen 4','Esto es una URL');
+insert into ProyectoImagen values(1,4);
+
+insert into Direccion values(13,'Patricio Lynch','73','CM7');
+insert into Proyecto values(2,10,'Esta es una descripción','Proyecto 2',1,1,13);
+insert into Imagen values(5,'Imagen 5','Esto es una URL');
+insert into ProyectoImagen values(2,5);
+
+insert into Direccion values(14,'Los Pinos','61','CM1');
+insert into Proyecto values(3,10,'Esta es una descripción','Proyecto 3',1,2,14);
+insert into Imagen values(6,'Imagen 6','Esto es una URL');
+insert into ProyectoImagen values(3,6);

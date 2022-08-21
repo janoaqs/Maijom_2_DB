@@ -117,12 +117,15 @@ url_imagen varchar(100) not null
 
 create table Noticia(
 id_noticia int primary key auto_increment,
-descripcion_noticia varchar(100) not null
+descripcion_noticia varchar(500) not null,
+fecha_noticia date not null
 )ENGINE = InnoDB;
 
 create table Proyecto(
 id_proyecto int primary key auto_increment,
-casas_disp_proyecto int not null
+casas_disp_proyecto int not null,
+descripcion_proyecto varchar(1000) not null,
+nombre_proyecto varchar(30) not null
 )ENGINE = InnoDB;
 
 /*Tablas intermedias*/
@@ -181,9 +184,11 @@ add constraint Fk_solicitud_cuenta foreign key(id_cuenta) references Cuenta(id_c
 
 alter table Postulacion
 add id_subsidio int not null,
+add id_tramo int not null,
 add id_estado varchar(10) not null,
 add id_serviu varchar(10) not null,
 add constraint Fk_postulacion_subsidio foreign key(id_subsidio) references Subsidio(id_subsidio),
+add constraint Fk_postulacion_tramo foreign key(id_tramo) references Tramo(id_tramo),
 add constraint Fk_postulacion_estado foreign key(id_estado) references Estado(id_estado),
 add constraint Fk_postulacion_serviu foreign key(id_serviu) references Serviu(id_serviu);
 
@@ -221,8 +226,8 @@ add constraint Fk_noticia_usuario foreign key(id_usuario) references Usuario(id_
 
 alter table Proyecto
 add id_inmobiliaria int not null,
-add id_direccion int not null,
 add id_subsidio int not null,
+add id_direccion int not null,
 add constraint Fk_proyecto_inmobiliaria foreign key(id_inmobiliaria) references Inmobiliaria(id_inmobiliaria),
-add constraint Fk_proyecto_direccion foreign key(id_direccion) references Direccion(id_direccion),
-add constraint Fk_proyecto_subisdio foreign key(id_subsidio) references Subsidio(id_subsidio);
+add constraint Fk_proyecto_subisdio foreign key(id_subsidio) references Subsidio(id_subsidio),
+add constraint Fk_proyecto_direccion foreign key(id_direccion) references Direccion(id_direccion);

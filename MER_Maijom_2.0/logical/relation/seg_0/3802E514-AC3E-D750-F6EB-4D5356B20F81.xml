@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PostulacionTramo" directorySegmentName="seg_0" id="3802E514-AC3E-D750-F6EB-4D5356B20F81">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-21 19:35:07 UTC</createdTime>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<sourcePk>6CD20FF5-0439-36CA-CCCC-94A3CD2AAE00</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>840DE9A5-63F7-6126-5E5C-D96C0A59B26B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5C9723A-FA4F-FA1A-C8B3-D80BC123DA1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

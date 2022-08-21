@@ -59,6 +59,17 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_tramo" id="757BA6EF-8238-2F1B-22BD-8B7621BEFE8E">
+<createdBy>Jano</createdBy>
+<createdTime>2022-08-21 19:35:07 UTC</createdTime>
+<generatorID>3802E514-AC3E-D750-F6EB-4D5356B20F81</generatorID>
+<ownerDesignName>MER_Maijom_2.0</ownerDesignName>
+<referedAttribute>CE0C9917-9EAA-55BA-1A86-B9A3D516EBC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_estado" id="DA17AA31-02DD-36FA-1EE0-36A239B77EF4">
 <createdBy>Jano</createdBy>
 <createdTime>2022-08-12 22:52:32 UTC</createdTime>
@@ -69,7 +80,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_serviu" id="7C46C7B1-E593-A572-F43B-B924DE5601C3">
 <createdBy>Jano</createdBy>
@@ -81,7 +92,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
